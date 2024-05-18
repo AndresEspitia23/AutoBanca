@@ -70,6 +70,7 @@ namespace AutoBanca.BD
         }
 
         // Procedimiento de Movimiento_Delete
+        // comentario
         public void Movimiento_Delete(int mov_id)
         {
             try
