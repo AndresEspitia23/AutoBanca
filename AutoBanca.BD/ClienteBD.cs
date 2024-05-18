@@ -135,9 +135,9 @@ namespace AutoBanca.BD
                 var clientes = BD.Cliente_List(cli_id).ToList();
                 return clientes;
             }
-            catch (Exception ex)
+            catch (Exception Ex)
             {
-                throw ex;
+                throw Ex;
             }
         }
     }
